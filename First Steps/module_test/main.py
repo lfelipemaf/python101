@@ -13,3 +13,5 @@ print("\nDoor of your car:\n"
 door_number = int(input("Enter the door number: "))
 
 myCar.open_door(door_number)
+
+myCar.blinker_control(right_blinker="OM")
